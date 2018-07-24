@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.customertest.CustomerTest"/>
+      <class name="com.actitime.customertest.BeforeClassAfterClass"/>
+      <class name=".CustomerTest"/>
+      <class name="com.actitime.customertest.LoginTest"/>
+      <class name="com.actitime.customertest.ScreenShot"/>
+      <class name=".CustomerTestPriority"/>
+      <class name="com.actitime.customertest.ExtendsClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
